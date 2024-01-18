@@ -21,23 +21,51 @@ header {
   background-color: #add8e6;
 }
 
-.container.top{
+.container{
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+/* STILI HEADER */
+.container-header{
   display: flex;
   margin: 0 auto;
-  max-width: 1000px;
-  min-width: 600px;
+  max-width: 1600px;
+  min-width: 1200px;
   padding: 5px;
   background-color: #daa520;
 }
 
 .logo{
-  width: 100px;
+  width: 20%;
 }
 .menu{
-  width: 400px;
+  width: 60%;
   text-align: center;
 }
 .login{
-  width: 100px;
+  width: 20%;
   text-align: right;
 }
+/* /STILI HEADER */
+
+/* STILI HERO */
+.hero{
+  display: flex;
+  align-items: center;
+  background-color: #00008b;
+  height: 400px;
+}
+
+.container.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ee82ee;
+  height: 300px;
+  
+}
+/* /STILI HERO */

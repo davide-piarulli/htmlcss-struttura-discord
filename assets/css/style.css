@@ -168,5 +168,60 @@ header {
 /* STILI FOUR */
 
 /* STILI FOOTER */
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: #23272a;
+  height: 400px;
+}
 
+.container.five {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 350px;
+  color: white;
+}
+
+.social-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f08080;
+  height: 100%;
+  width: 30%;
+}
+
+.footer-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #20b2aa;
+  height: 100%;
+  width: 70%;
+}
+
+.footer-menu div{
+
+  
+}
+
+.footer-credits {
+  display: flex;
+  align-items: center;
+  background-color: #23272a;
+  height: 100px;
+}
+
+.container.six {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #7fffd4;
+  height: 50px;
+}
+
+.container.six div{
+  background-color: #efa8af;
+}
 /* /STILI FOOTER */

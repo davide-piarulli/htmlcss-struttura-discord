@@ -89,7 +89,7 @@ header {
   justify-content: center;
   background-color: #ee82ee;
   height: 300px;
-  width: 600px;
+  min-width: 600px;
 }
 /* /STILI HERO */
 

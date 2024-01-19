@@ -9,222 +9,140 @@
   border: 2px dotted black;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+.debug div,
+.debug nav{
+  border: 1px solid black;
 }
 
-header {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  height: 60px;
-  background-color: #add8e6;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+ul{
+  list-style: none;
+}
+
+img{
+  max-width: 100%;
 }
 
 .container {
-  display: flex;
-  align-items: center;
-  max-width: 1000px;
-  min-width: 800px;
+  width: 98%;
+  max-width: 1400px;
   margin: 0 auto;
-  border: 2px dotted black;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.bg-grey{
+  background-color: #F6F6F6;
+}
+
+/* STILI HEADER */
+.topbar{
+  background-color: #add8e6;
+  height: 100px;
+}
+
+.topbar .container{
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+} 
+
+.topbar .menu{
+  width: 50%;
+}
+
+.topbar .menu ul{
+  justify-content: space-between;
+}
+
+.hero{
+  justify-content: center;
+  align-items: center;
+  background-color: #3170e4;
+  height: 630px; /* DEBUG */
+}
+
+.hero .content{
+  width: 98%;
+  max-width: 950px;
+  height: 380px; /* DEBUG */
+}
+/* /STILI HEADER */
+
+/* MAIN */
+main section{
+  padding: 150px 0;
+  height: 900px; /* DEBUG */
+}
+
+main section .container{
+  height: 100%; /* DEBUG */
 }
 
 .container div.img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 70%;
-  height: 100%;
+  width: 60%;
   background-color: #1e90ff;
   color: white;
 }
 
-.container div.text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 30%;
-  height: 100%;
+.container div.box-text {
+  width: 40%;
   background-color: #ffc0cb;
   color: white;
 }
 
-/* STILI HEADER */
-.container-header {
-  display: flex;
-  margin: 0 auto;
-  max-width: 1000px;
-  min-width: 800px;
-  padding: 5px;
-  background-color: #daa520;
-}
+/* /MAIN */
 
-.logo {
-  width: 20%;
-}
+/* TECNOLOGIA */
 
-.menu {
-  width: 60%;
+#tecnologia .container{
   text-align: center;
+  flex-direction: column; /* DEBUG */
+  justify-content: space-between; /* DEBUG */
 }
 
-.login {
-  width: 20%;
-  text-align: right;
-}
-/* /STILI HEADER */
-
-/* STILI HERO */
-.hero {
-  display: flex;
-  align-items: center;
-  background-color: #00008b;
-  height: 400px;
-}
-
-.container.hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #ee82ee;
-  height: 300px;
-  min-width: 600px;
-}
-/* /STILI HERO */
-
-/* STILI ONE */
-.one {
-  display: flex;
-  align-items: center;
-  background-color: white;
-  height: 400px;
-}
-
-.container.one {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 300px;
-}
-/* STILI ONE */
-
-/* STILI TWO */
-.two {
-  display: flex;
-  align-items: center;
-  background-color: #d3d3d3;
-  height: 400px;
-}
-
-.container.two {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 300px;
-}
-/* STILI TWO */
-
-/* STILI THREE */
-.three {
-  display: flex;
-  align-items: center;
-  background-color: white;
-  height: 400px;
-}
-
-.container.three {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 300px;
-}
-/* STILI THREE */
-
-/* STILI FOUR */
-.four {
-  display: flex;
-  align-items: center;
-  background-color: #d3d3d3;
-  height: 600px;
-}
-
-.container.four {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 500px;
-}
-
-.container div.big {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  background-color: #228b22;
-  color: white;
-}
-/* STILI FOUR */
+/* TECNOLOGIA */
 
 /* STILI FOOTER */
-.footer {
-  display: flex;
-  align-items: center;
+footer {
+  padding: 80px;
   background-color: #23272a;
-  height: 400px;
-}
-
-.container.five {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  height: 350px;
   color: white;
 }
 
-.social-menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f08080;
-  height: 100%;
-  width: 30%;
+footer .top{
+  
+  height: 580px; /* DEBUG */
 }
 
-.footer-menu{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #20b2aa;
-  height: 100%;
-  width: 70%;
+footer .top .container{
+  
+  height: 100%; /* DEBUG */
 }
 
-.footer-menu div{
-  display: flex;
-  height: 100%;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
+footer .top .social-menu{
+  width: 25%;
+}
+footer .top .social-menu div{
+  color: white;
+  font-size: 1.5rem;
+}
+footer .top .footer-menu{
+  width: 75%;
 }
 
-.footer-credits {
-  display: flex;
-  align-items: center;
-  background-color: #23272a;
-  height: 100px;
+footer .top .footer-menu nav{
+  width: 25%;
 }
 
-.container.six {
-  display: flex;
-  align-items: center;
+footer .bottom{
+  padding-bottom: 80px;
   justify-content: space-between;
-  background-color: #7fffd4;
-  height: 50px;
-}
-
-.container.six div{
-  background-color: #efa8af;
 }
 /* /STILI FOOTER */
